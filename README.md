@@ -4,6 +4,7 @@
 
 * Nombre, Teléfono, Estado, Fecha, Botón Enviar.
 ##### Este módulo, se encargará de registrar los clientes en una base de datos para poder ser consultada desde el módulo envió de Mensajes. #####
+![](https://i.imgur.com/wlUArxZ.png)
 ___
 
 # Módulo envio Mensajes  #
@@ -16,3 +17,4 @@ ___
 
 # Módulo Edición de Mensajes #
 ###  El mensaje de texto se podrá redactar y editar dentro de las opciones generales. ### 
+

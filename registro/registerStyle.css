@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 55%;
+    padding: 0;
+    background-image: url(https://i0.wp.com/css-tricks.com/wp-content/uploads/2018/06/t2.png?ssl=1);
+    background-size: cover;
+    width: 55%;
+    height: 100%;
+    
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    width: 45%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(241, 16, 61, 0.822), rgba(16, 196, 241, 0.822) );
+    
+}
+
+.shadow{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 15px;
+    width: 70%;
+    height: 70%;
+    background-color: rgba(21, 4, 7, 0.489);
+    border-radius: 30px;
+   
+    }
+
+    .shadow2{
+        display: flex;
+        align-items: center;
+        margin: auto;
+        padding: 35px;
+        width: 70%;
+        height: 70%;
+        background-color: rgb(35, 171, 217);
+        border-radius: 30px;
+        transform: perspective(6cm) rotateX(0deg) rotateY(10deg);
+        
+    }
+
+    .shadow2:hover{
+        transform: perspective(6cm) rotateX(0deg) rotateY(-10deg);
+        transition: .50s;
+        transition-delay: .20s;
+        transition-duration: .50s;
+
+    }
+
+.form{
+    margin: auto;
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    text-align:center;
+    color: white;
+    transform: perspective(55cm) rotateX(0deg) rotateY(35deg);
+    text-shadow: rgba(253, 252, 252, 0.199) 0 3px;
+}
+

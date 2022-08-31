@@ -12,6 +12,7 @@ ___
 ### Cuenta con la capacidad de enviar mensajes al listado de clientes, mediante el uso de una interfaz, compuesta por los siguientes elementos: ###
 
 * Nombre, Teléfono, Estado, Fecha, Casilla Seleccionar, Botón Enviar. 
+![](https://i.imgur.com/0HTOccg.png)
 
 ___
 
